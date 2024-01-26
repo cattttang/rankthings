@@ -1,0 +1,36 @@
+.questionCard {
+  flex: 1;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #F8F9FA;
+  padding: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionCard:hover {
+  background-color: #ADD8E6;
+}
+
+.rankingsContainer {
+  padding: 20px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #F8F9FA;
+  color: #333333;
+}
+
+.fadeIn {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fadeIn.fadeInActive {
+  opacity: 1;
+}
